@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/serial_device_search"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/option_connect_to_arduino"/>
+    <item android:id="@+id/secure_connect_scan"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/secure_connect" />
+    <item android:id="@+id/set_discoverable"
+          android:icon="@android:drawable/ic_menu_mylocation"
+          android:title="@string/discoverable" />
+</menu>

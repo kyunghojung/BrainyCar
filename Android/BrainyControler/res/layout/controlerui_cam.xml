@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<com.hyunnyapp.brainyproject.brainycontroler.cam.ControlerView 
+	    android:id="@+id/controlerView"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+	</com.hyunnyapp.brainyproject.brainycontroler.cam.ControlerView >
+	<RelativeLayout
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<ImageView
+		    android:id="@+id/wifi_settings"
+		    android:layout_width="50dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:src="@android:drawable/ic_menu_search" />
+
+		<ImageView
+		    android:id="@+id/flash_onoff"
+		    android:layout_width="50dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_toRightOf="@+id/wifi_settings"
+		    android:src="@drawable/ic_action_flash_on" />
+
+		<ImageView
+		    android:id="@+id/speak_now"
+		    android:layout_width="50dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_toRightOf="@+id/flash_onoff"
+		    android:src="@android:drawable/ic_btn_speak_now" />
+
+		<com.hyunnyapp.brainyproject.brainycontroler.joystick.TripleJoystickView
+		    android:id="@+id/triplejoystickView_controler"
+		    android:layout_width="800dip"
+		    android:layout_height="175dip"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentLeft="true"
+		    android:gravity="center_horizontal" >
+		</com.hyunnyapp.brainyproject.brainycontroler.joystick.TripleJoystickView>
+
+	</RelativeLayout>
+</FrameLayout>

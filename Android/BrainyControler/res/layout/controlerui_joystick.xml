@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<com.hyunnyapp.brainyproject.brainycontroler.joystick.DualJoystickView
+		android:id="@+id/dualjoystickView_controler" 
+        android:layout_width="match_parent"
+        android:layout_height="175dip"
+        android:layout_marginTop="5dip" />
+
+    <ScrollView
+        android:id="@+id/debugscreen_controler"
+        android:layout_width="fill_parent" 
+        android:layout_height="match_parent">     
+	    <TextView
+	        android:id="@+id/debugview_controler"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	         />
+    </ScrollView>
+</LinearLayout>
